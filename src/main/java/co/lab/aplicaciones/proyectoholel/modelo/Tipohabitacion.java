@@ -35,7 +35,7 @@ public class Tipohabitacion {
    @Column (name = "Precio_noche")
    private int precioNoche;
    
-   private Hotel hotel;
+//   private Hotel hotel;
 
     public int getCodigoHabitacion() {
         return codigoHabitacion;
@@ -69,14 +69,14 @@ public class Tipohabitacion {
         this.precioNoche = precioNoche;
     }
 
-    public Hotel getHotel() {
-        return hotel;
-    }
-
-    public void setHotel(Hotel Hotel) {
-        this.hotel = Hotel;
-    }
-   
+//    public Hotel getHotel() {
+//        return hotel;
+//    }
+//
+//    public void setHotel(Hotel Hotel) {
+//        this.hotel = Hotel;
+//    }
+//   
   
 
    

@@ -41,9 +41,9 @@ public class Hotel {
     @Column(name = "Localidad")
     private String localidad;
     
-    private List<Tipohabitacion> tipoHabitaciones;
-    
-    private List<Reserva> reservas;
+//    private List<Tipohabitacion> tipoHabitaciones;
+//    
+//    private List<Reserva> reservas;
 
     public int getCodigoHotel() {
         return codigoHotel;
@@ -85,23 +85,19 @@ public class Hotel {
         this.localidad = localidad;
     }
 
-    public List<Tipohabitacion> getTipoHabitaciones() {
-        return tipoHabitaciones;
-    }
-
-    public void setTipoHabitaciones(List<Tipohabitacion> tipoHabitaciones) {
-        this.tipoHabitaciones = tipoHabitaciones;
-    }
-
-    public List<Reserva> getReservas() {
-        return reservas;
-    }
-
-    public void setReservas(List<Reserva> reservas) {
-        this.reservas = reservas;
-    }
-
-  
-    
-    
+//    public List<Tipohabitacion> getTipoHabitaciones() {
+//        return tipoHabitaciones;
+//    }
+//
+//    public void setTipoHabitaciones(List<Tipohabitacion> tipoHabitaciones) {
+//        this.tipoHabitaciones = tipoHabitaciones;
+//    }
+//
+//    public List<Reserva> getReservas() {
+//        return reservas;
+//    }
+//
+//    public void setReservas(List<Reserva> reservas) {
+//        this.reservas = reservas;
+//    }
 }

@@ -41,7 +41,7 @@ public class Cliente {
     @Column (name = "Correo")
     private String correo;
    
-    private List<Reserva> reservas;
+//    private List<Reserva> reservas;
 
     public int getNit() {
         return nit;
@@ -99,15 +99,15 @@ public class Cliente {
         this.correo = correo;
     }
 
-    public List<Reserva> getReservas() {
-        return reservas;
-    }
-
-    public void setReservas(List<Reserva> reservas) {
-        this.reservas = reservas;
-        //comentario
-        //otrocomentario
-    }
+//    public List<Reserva> getReservas() {
+//        return reservas;
+//    }
+//
+//    public void setReservas(List<Reserva> reservas) {
+//        this.reservas = reservas;
+//        //comentario
+//        //otrocomentario
+//    }
 
     
      

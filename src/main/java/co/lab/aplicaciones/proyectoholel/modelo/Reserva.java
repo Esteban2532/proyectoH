@@ -39,26 +39,26 @@ public class Reserva {
     @Column (name = "Numero_Habitaciones")
     private Date numeroHabitaciones;
     
-    private Cliente cliente;
+//    private Cliente cliente;
     
-    private Hotel hotel;
+//    private Hotel hotel;
 
-    public Cliente getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-
-    public Hotel getHotel() {
-        return hotel;
-    }
-
-    public void setHotel(Hotel hotel) {
-        this.hotel = hotel;
-    }
-    
+//    public Cliente getCliente() {
+//        return cliente;
+//    }
+//
+//    public void setCliente(Cliente cliente) {
+//        this.cliente = cliente;
+//    }
+//
+////    public Hotel getHotel() {
+//        return hotel;
+//    }
+//
+//    public void setHotel(Hotel hotel) {
+//        this.hotel = hotel;
+//    }
+//    
     
 
     public int getCodigoReserva() {
